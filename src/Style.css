@@ -1,0 +1,40 @@
+/* MultiValueTextBox.css */
+
+.multi-value-textbox {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #ccc;
+    padding: 5px;
+    align-items: center;
+    width: 500px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.multi-value-textbox input {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 5px;
+    flex-grow: 1;
+    border: none;
+    outline: none;
+}
+
+.value {
+    background-color: #DDDDDD;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 2px 5px;
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    color: #7A6A6C;
+}
+
+.remove-icon {
+    font-size: 10px;
+    cursor: pointer;
+    margin-left: 5px;
+    color: #AAAAAA;
+    font-weight: bold;
+}
